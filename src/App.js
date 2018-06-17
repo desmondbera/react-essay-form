@@ -23,8 +23,8 @@ class EssayForm extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           Essay:
-          <textarea value={this.state.value} onChange={this.handleChange} />
-        </label>;
+          <textarea value={this.state.value} onChange={this.handleChange} rows={20} cols='55' />
+        </label>
         <input type="submit" value="Submit" />
       </form>
     );
